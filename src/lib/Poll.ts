@@ -357,7 +357,7 @@ export class PollService {
 }
 
 // Export singleton instance
-export const pollService = PollService.getInstance();
-
-// Export class for direct instantiation if needed
+export const pollService = PollService.getInstance();// Export class for direct instantiation if needed
 export { PollService };
+
+
